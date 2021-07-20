@@ -69,7 +69,7 @@ Content-Type: application/json; charset=utf-8
 ```http
 POST  https://services.msem.tech/api/crm/crm-to-msem/notification
 Content-Type: application/json; charset=utf-8
-Authorization: Bearer {{access_token}}
+Authorization: Bearer {access_token}
 
 ```
 
