@@ -12,13 +12,16 @@ L’authentification se fait via notre serveur d'identité OAuth2 en `client_cre
 | UAT           | https://auth-uat.msem.tech         |
 | Production    | https://auth.msem.tech             |
 
+**Paramétrage**
+Pour pouvoir vous connecter nous devrons vous fournir des credentials (client_id & client_secret)
+
 **Requête du endpoint /api/oauth/token**
 
 ```http
 POST https://auth.msem.tech/api/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
-grant_type=client_credentials&client_id=sybelles_crm&client_secret=70f8f853096826481f0ea78f604b43e70abbe92bd15fba213fb3db5b69cbd4f0&scope=all
+grant_type=client_credentials&scope=all&client_id={client_id}&client_secret={client_secret}
 ```
 
 **Réponse du endpoint /api/oauth/token**
