@@ -1,0 +1,152 @@
+{
+  "id": "EP-1590052",
+  "createDate": "2021-07-16T10:21:59.000Z",
+  "updateDate": "2021-07-16T10:23:31.000Z",
+  "validationDate": "2021-07-16T10:23:31.000Z",
+  "price": 531.39,
+  "stayFrom": "2021-08-20T22:00:00.000Z",
+  "stayTo": "2021-08-27T22:00:00.000Z",
+  "lang": "fr",
+  "status": "paid",
+  "hostname": "www.saintefoy-reservation.com",
+  "channel": "OT-595",
+  "customer": {
+    "id": 1608311,
+    "title": "1",
+    "lastname": "pxxxxxxxzo",
+    "firstname": "vaxxxxxe",
+    "address1": "35 rue Auguste Comte",
+    "address2": null,
+    "postalcode": "69002",
+    "city": "Lyon",
+    "country": "FRA",
+    "email": "vxxxxxzo@gmail.com",
+    "mobile": "06xxxxxxx98",
+    "channel": "OT-595",
+    "optin": 1
+  },
+  "resort": {
+    "id": 595,
+    "libelle": "Sainte Foy Tarentaise",
+    "position": "45.590354919433594,6.884909629821777",
+    "search": "45.590354919433594,6.884909629821777",
+    "radius": 3000,
+    "zoom": 14,
+    "slug": "sainte-foy-tarentaise",
+    "typologie": "mountains",
+    "country": "FR",
+    "area": 0
+  },
+  "assu": {
+    "id": 255567,
+    "order_id": 1590052,
+    "price": 18.39,
+    "merchant": "ASSU"
+  },
+  "ffs": {
+    "id": 28041,
+    "order_id": 1590052,
+    "price": 2,
+    "merchant": "FFS"
+  },
+  "hotels": [
+    {
+      "id": 1590,
+      "order_id": 1590052,
+      "total": 497,
+      "price": 124.25,
+      "balance": 372.75,
+      "balance_debit_date": "2021-07-20T22:00:00.000Z",
+      "merchant": "RES-595-173257",
+      "inscription": {
+        "matching": {
+          "deal": {
+            "total": 497,
+            "boards": [
+              {
+                "code": "N",
+                "kind": "Adult",
+                "type": "RO"
+              }
+            ],
+            "roomtype": "SX",
+            "roomcount": "1",
+            "rate_access_code": "RACKCH"
+          },
+          "context": {
+            "paxs": {
+              "adults": {
+                "count": 6
+              },
+              "children": {
+                "ages": [],
+                "count": 0
+              }
+            },
+            "dates": {
+              "stop": "2021/08/28",
+              "start": "2021/08/21"
+            },
+            "isMeuble": false,
+            "lodgingId": 7894,
+            "accomodation": "915358"
+          }
+        },
+        "description": {
+          "room": "3 pièces 4/6 personnes",
+          "hotel": "CGH Résidence & Spa Les Fermes de Sainte Foy",
+          "price": 124.25,
+          "total": 497,
+          "locale": "fr",
+          "balance": 372.75,
+          "contact": {
+            "web": ["https://www.cgh-residences.com/residences/les-fermes-de-sainte-foy-22"],
+            "email": ["stefoy@cgh-residences.com"],
+            "phone": ["04 50 33 10 96"]
+          },
+          "mealPlan": "Hébergement seul",
+          "merchant": "RES-595-173257",
+          "localisation": {
+            "address": {
+              "cp": "73640",
+              "city": {
+                "nom": null
+              },
+              "address1": null,
+              "address2": "ZAC de Bonconseil",
+              "codePostal": "73640"
+            },
+            "geolocalisation": {
+              "lat": 45.5763,
+              "lng": 6.89316
+            }
+          },
+          "accomodationKind": "RESIDENCE",
+          "balanceDebitDate": "2021/07/21"
+        }
+      },
+      "stay_tax_order_id": null,
+      "stay_tax_status": "FORFAITAIRE",
+      "payment_token": null,
+      "package_id": null,
+      "merchantName": "CGH Résidence & Spa Les Fermes de Sainte Foy"
+    }
+  ],
+  "genericLine": [
+    {
+      "id": 13186,
+      "order_id": 1590052,
+      "price": 14,
+      "merchant": "CR-595",
+      "label": "Frais de dossier",
+      "description": null,
+      "package_id": null,
+      "merchantName": "Sainte-Foy Tarentaise Réservation"
+    }
+  ],
+  "lifts": [],
+  "rentals": [],
+  "standardProducts": [],
+  "transfers": [],
+  "stayTax": []
+}

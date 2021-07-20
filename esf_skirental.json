@@ -1,0 +1,375 @@
+{
+  "id": "EP-1589246",
+  "createDate": "2021-03-26T13:28:26.000Z",
+  "updateDate": "2021-03-26T13:30:53.000Z",
+  "validationDate": "2021-03-26T13:30:53.000Z",
+  "price": 499.5,
+  "stayFrom": "2021-04-17T22:00:00.000Z",
+  "stayTo": "2021-04-24T22:00:00.000Z",
+  "lang": "fr",
+  "status": "paid",
+  "hostname": "www.esftignes.com",
+  "channel": "ESF",
+  "customer": {
+    "id": 1563166,
+    "title": "0",
+    "lastname": "Boxxxxxxer",
+    "firstname": "Arxxxxxxud",
+    "address1": "38 rue hoxxxhe",
+    "address2": null,
+    "postalcode": "90000",
+    "city": "Issxxxxxxxxxxeaux",
+    "country": "FRA",
+    "email": "arxxxxfabxxxxx@yahoo.fr",
+    "mobile": "06xxxxxx15",
+    "channel": "ESF",
+    "optin": 1
+  },
+  "resort": {
+    "id": 660,
+    "libelle": "Tignes Val Claret",
+    "position": "45.453314169102775,6.89790630340579",
+    "search": "45.451658386651204,6.897520065307646",
+    "radius": 1500,
+    "zoom": 14,
+    "slug": "tignes-val-claret",
+    "typologie": "mountains",
+    "country": "FR",
+    "area": 0
+  },
+  "esf": {
+    "id": 1530559,
+    "order_id": 1589246,
+    "version": "3",
+    "price": 412,
+    "season": "2021",
+    "merchant": "ESF-660",
+    "merchantName": "ESF Tignes Val Claret",
+    "inscriptions": [
+      {
+        "id": 1731732,
+        "resort": 660,
+        "product": {
+          "name": "Kids' Club",
+          "kind": "Les cours collectifs",
+          "level": "Piou-Piou",
+          "activity": "Kid's Club",
+          "price": 226,
+          "structure": [
+            {
+              "code": "KIDS-CLUB-MAT",
+              "name": "Matin",
+              "meeting": "Jardin d'Enfants",
+              "meetings": ["Jardin d'Enfants"],
+              "meetingCodes": ["JDN"],
+              "lang": "Français",
+              "schedule": {
+                "days": 5,
+                "start": "lundi 19 avril",
+                "startDay": 1,
+                "startDate": "2021-04-19",
+                "ranges": [
+                  {
+                    "date": "Du lundi 19 avril au vendredi 23 avril",
+                    "time": "de 09h00 à 12h00"
+                  }
+                ]
+              }
+            },
+            {
+              "code": "MED-PACK",
+              "name": "Médaille"
+            }
+          ],
+          "options": []
+        },
+        "student": {
+          "birthday": "2018-04-14",
+          "firstname": "Ixxxxxxxs",
+          "lastname": "Boxxxxxxer",
+          "spoken": "fr",
+          "title": "Madame"
+        },
+        "oneClickSkiRental": true,
+        "skiRentalId": 59829,
+        "oneClickRMPublic": false,
+        "oneClickRMESF": false
+      },
+      {
+        "id": 1731733,
+        "resort": 660,
+        "product": {
+          "name": "Cours Collectifs Enfants",
+          "kind": "Les cours collectifs",
+          "level": "Flocon",
+          "activity": "Ski Alpin",
+          "price": 186,
+          "structure": [
+            {
+              "code": "CC-MAT-ENF",
+              "name": "Matin",
+              "meeting": "Jardin d'Enfants",
+              "meetings": ["Jardin d'Enfants"],
+              "meetingCodes": ["JDN"],
+              "lang": "Français",
+              "schedule": {
+                "days": 5,
+                "start": "lundi 19 avril",
+                "startDay": 1,
+                "startDate": "2021-04-19",
+                "ranges": [
+                  {
+                    "date": "Du lundi 19 avril au vendredi 23 avril",
+                    "time": "de 09h00 à 12h00"
+                  }
+                ]
+              }
+            },
+            {
+              "code": "MED-PACK",
+              "name": "Médaille"
+            }
+          ],
+          "options": []
+        },
+        "student": {
+          "birthday": "2014-09-27",
+          "firstname": "Mxxxxxxxn",
+          "lastname": "Boxxxxxxr",
+          "spoken": "fr",
+          "title": "Monsieur"
+        },
+        "oneClickSkiRental": true,
+        "skiRentalId": 59828,
+        "oneClickRMPublic": false,
+        "oneClickRMESF": false
+      }
+    ]
+  },
+  "rentals": [
+    {
+      "id": 38753,
+      "order_id": 1589246,
+      "price": 43.75,
+      "merchant": "LM-660-05",
+      "inscription": {
+        "lang": "fr",
+        "price": 43.75,
+        "rentFrom": "2021/04/19",
+        "merchantSlug": "tignes-val-claret-centre",
+        "merchantName": "Tignes Val Claret - Centre",
+        "rentDuration": "5 Jours",
+        "rentDurationCode": 1,
+        "package_id": null,
+        "products": [
+          {
+            "id": 19093,
+            "rank": 0,
+            "type": "Mandatory",
+            "image": "photo-4223.png",
+            "label": "Pack skis enfant",
+            "price": 11.5,
+            "maxAge": 6,
+            "minAge": 3,
+            "parent": null,
+            "gearType": "ski",
+            "preCheck": null,
+            "available": 1,
+            "displayed": 1,
+            "mandatory": 1,
+            "reduction": 50,
+            "description": "Le Pack comprend (ski + chaussures + bâtons) Adapté pour l'apprentissage du ski des petits. Sécurité et apprentissage.",
+            "publicPrice": 23
+          },
+          {
+            "id": 19113,
+            "rank": 13,
+            "type": "Option",
+            "image": "photo-4216.jpg",
+            "label": "Chaussures ski enfant",
+            "price": 15,
+            "maxAge": "",
+            "minAge": "",
+            "parent": 19093,
+            "gearType": "",
+            "preCheck": 1,
+            "available": 1,
+            "displayed": 0,
+            "mandatory": 0,
+            "reduction": 40,
+            "description": "De la bottine Kid à la chaussure 4 boucles, un vaste choix pour les enfants.",
+            "publicPrice": 25
+          },
+          {
+            "id": 19115,
+            "rank": 15,
+            "type": "Extra",
+            "image": "photo-4218.jpg",
+            "label": "Casque",
+            "price": 17.25,
+            "maxAge": "",
+            "minAge": "",
+            "parent": 19093,
+            "gearType": "",
+            "preCheck": 0,
+            "available": 1,
+            "displayed": 0,
+            "mandatory": 0,
+            "reduction": 25,
+            "description": "Louez un casque pour votre sécurité",
+            "publicPrice": 23
+          }
+        ],
+        "salesInformation": [
+          {
+            "id": 6105,
+            "label": "Prénom",
+            "value": "Ixxxxxs",
+            "dataType": "firstname",
+            "mandatory": 1,
+            "technicalLabel": "Prénom"
+          },
+          {
+            "id": 6107,
+            "label": "Âge",
+            "value": "3",
+            "dataType": "age",
+            "mandatory": 1,
+            "technicalLabel": "Age"
+          },
+          {
+            "id": 6108,
+            "label": "Taille",
+            "value": "90cm-94cm",
+            "dataType": "select",
+            "mandatory": 1,
+            "technicalLabel": "Taille 5cm par 5cm"
+          },
+          {
+            "id": 6111,
+            "label": "Poids",
+            "value": "10kg-14kg",
+            "dataType": "select",
+            "mandatory": 1,
+            "technicalLabel": "Poids 5kg par 5kg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 38754,
+      "order_id": 1589246,
+      "price": 43.75,
+      "merchant": "LM-660-05",
+      "inscription": {
+        "lang": "fr",
+        "price": 43.75,
+        "rentFrom": "2021/04/19",
+        "merchantSlug": "tignes-val-claret-centre",
+        "merchantName": "Tignes Val Claret - Centre",
+        "rentDuration": "5 Jours",
+        "rentDurationCode": 1,
+        "package_id": null,
+        "products": [
+          {
+            "id": 19093,
+            "rank": 0,
+            "type": "Mandatory",
+            "image": "photo-4223.png",
+            "label": "Pack skis enfant",
+            "price": 11.5,
+            "maxAge": 6,
+            "minAge": 3,
+            "parent": null,
+            "gearType": "ski",
+            "preCheck": null,
+            "available": 1,
+            "displayed": 1,
+            "mandatory": null,
+            "reduction": null,
+            "description": "Le Pack comprend (ski + chaussures + bâtons) Adapté pour l'apprentissage du ski des petits. Sécurité et apprentissage.",
+            "publicPrice": 23
+          },
+          {
+            "id": 19113,
+            "rank": 13,
+            "type": "Option",
+            "image": "photo-4216.jpg",
+            "label": "Chaussures ski enfant",
+            "price": 15,
+            "maxAge": "",
+            "minAge": "",
+            "parent": 19093,
+            "gearType": "",
+            "preCheck": 1,
+            "available": 1,
+            "displayed": 0,
+            "mandatory": 0,
+            "reduction": 40,
+            "description": "De la bottine Kid à la chaussure 4 boucles, un vaste choix pour les enfants.",
+            "publicPrice": 25
+          },
+          {
+            "id": 19115,
+            "rank": 15,
+            "type": "Extra",
+            "image": "photo-4218.jpg",
+            "label": "Casque",
+            "price": 17.25,
+            "maxAge": "",
+            "minAge": "",
+            "parent": 19093,
+            "gearType": "",
+            "preCheck": 0,
+            "available": 1,
+            "displayed": 0,
+            "mandatory": 0,
+            "reduction": 25,
+            "description": "Louez un casque pour votre sécurité",
+            "publicPrice": 23
+          }
+        ],
+        "salesInformation": [
+          {
+            "id": 6105,
+            "label": "Prénom",
+            "value": "Mxxxxxxxn",
+            "dataType": "firstname",
+            "mandatory": 1,
+            "technicalLabel": "Prénom"
+          },
+          {
+            "id": 6107,
+            "label": "Âge",
+            "value": "6",
+            "dataType": "age",
+            "mandatory": 1,
+            "technicalLabel": "Age"
+          },
+          {
+            "id": 6108,
+            "label": "Taille",
+            "value": "120cm-124cm",
+            "dataType": "select",
+            "mandatory": 1,
+            "technicalLabel": "Taille 5cm par 5cm"
+          },
+          {
+            "id": 6111,
+            "label": "Poids",
+            "value": "20kg-24kg",
+            "dataType": "select",
+            "mandatory": 1,
+            "technicalLabel": "Poids 5kg par 5kg"
+          }
+        ]
+      }
+    }
+  ],
+  "lifts": [],
+  "hotels": [],
+  "genericLine": [],
+  "standardProducts": [],
+  "transfers": [],
+  "stayTax": []
+}

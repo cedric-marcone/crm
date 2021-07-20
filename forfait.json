@@ -1,0 +1,89 @@
+{
+  "id": "EP-1590072",
+  "createDate": "2021-07-19T20:08:49.000Z",
+  "updateDate": "2021-07-19T20:11:09.000Z",
+  "validationDate": "2021-07-19T20:11:09.000Z",
+  "price": 27.6,
+  "stayFrom": "2021-07-19T22:00:00.000Z",
+  "stayTo": "2021-07-20T22:00:00.000Z",
+  "lang": "fr",
+  "status": "paid",
+  "hostname": "labresse.labellemontagne.com",
+  "channel": "LBM",
+  "customer": {
+    "id": 1608382,
+    "title": "0",
+    "lastname": "DxxxxxxxR",
+    "firstname": "John",
+    "address1": "33 Avenue Poincaré",
+    "address2": null,
+    "postalcode": "68800",
+    "city": "THANN",
+    "country": "FRA",
+    "email": "DxxxxxxxRJohn@yahoo.fr",
+    "mobile": "06xxxxxx54",
+    "channel": "LBM",
+    "optin": 0
+  },
+  "resort": {
+    "id": 209,
+    "libelle": "La Bresse",
+    "position": "48.0458796015778,6.953470706939413",
+    "search": "48.03784565656962,6.967804431914999",
+    "radius": 3700,
+    "zoom": 13,
+    "slug": "bresse",
+    "typologie": "mountains",
+    "country": "FR",
+    "area": 0
+  },
+  "lifts": [
+    {
+      "id": 84608,
+      "order_id": 1590072,
+      "lift_id": "1g0fgjlrt7oggwggswwsogs0skkockwk4kk88oswggo8sow480",
+      "price": 27.6,
+      "price_without_delivery": 27.6,
+      "merchant": "RM-209-LBM",
+      "eliberty_order_id": 137997999,
+      "one_click": 0,
+      "package_id": null,
+      "merchantName": "Forfait LBM La Bresse",
+      "inscription": {
+        "to": "2021/07/21",
+        "from": "2021/07/20",
+        "lang": "fr",
+        "facet": 1,
+        "price": 27.6,
+        "resort": 209,
+        "channel": "LBM",
+        "preview": false,
+        "merchant": "RM-209-LBM",
+        "orderCode": "1g0fgjlrt7oggwggswwsogs0skkockwk4kk88oswggo8sow480",
+        "inscription": {
+          "label": "Forfait Bikepark 1 Jour",
+          "price": 27.6,
+          "tickets": [
+            {
+              "code": 84644275,
+              "kind": "Jeune",
+              "keyCard": "01-16147133534936391409-7",
+              "options": ["1 Jour Assurance"],
+              "lastname": "DxxxxxxxR",
+              "birthdate": "2008/04/27",
+              "firstname": "SAxxxxA"
+            }
+          ],
+          "needsDelivery": false
+        },
+        "skipassCatalog": "PUBLIC"
+      }
+    }
+  ],
+  "hotels": [],
+  "rentals": [],
+  "genericLine": [],
+  "standardProducts": [],
+  "transfers": [],
+  "stayTax": []
+}
